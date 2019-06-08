@@ -1,14 +1,15 @@
 { 
-    "name": "coinhub-web-auth", 
+    "name": "cognito-web-auth", 
     "version": "0.0.2", 
-    "description": "Authenticates coinhub users", 
+    "description": "Authenticates AWS cloudfront users through a cognito user pool", 
     "main": "index.js", 
     "scripts": { 
         "build": "./build.sh production", 
         "debug": "./build.sh development", 
         "test": "echo \"Error: no test specified\" && exit 1" 
     }, 
-    "author": "Naughty Computer", 
+    "author": "Naughty Computer",
+    "license": "MPL-2.0",
     "dependencies": { 
         "jsonwebtoken": "^8.4.0", 
         "jwk-to-pem": "^2.0.1" 
